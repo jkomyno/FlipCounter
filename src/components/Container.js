@@ -43,7 +43,8 @@ export default class Container extends Component {
       <View style={styles.container}>
         <Display
           tileMap={digits[this.state.number]}
-          onPress={this.onPress}/>
+          onPress={this.onPress}
+        />
       </View>
     )
   }
