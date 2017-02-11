@@ -1,5 +1,7 @@
-export const colors = {
-  background: '#131313',
-  tile: '#2c2c2c',
-  tileActive: '#7b7b7b'
-}
+const colors = {
+  background: '#254E70',
+  tileActive: '#AEF3E7',
+  statusBar: '#071423',
+};
+
+export default colors;

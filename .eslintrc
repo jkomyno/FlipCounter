@@ -1,0 +1,19 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "plugins": [
+        "react",
+        "react-native"        
+    ],
+    "extends": "airbnb",
+    "rules": {
+      "quote-props": "off",
+      "react/jsx-filename-extension": "off",
+      "no-plusplus": "off",
+      "no-loop-func": "off",
+      "react/no-array-index-key": "off"
+    }
+} 
